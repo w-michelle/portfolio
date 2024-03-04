@@ -42,7 +42,7 @@ return (
     <div className="relative h-screen max-w-2xl mx-auto flex flex-col items-center justify-center"> 
 
   
-    <div className="absolute top-16 left-6 flex items-center gap-2">
+    <div className="absolute top-16 left-12 flex items-center gap-2">
       <div className="rounded-full w-2 h-2 bg-[#56F465] animate-pulse"></div>
       <p className="font-extralight text-xs tracking-widest text-grey">
         Available
