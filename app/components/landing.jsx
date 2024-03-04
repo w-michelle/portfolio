@@ -39,10 +39,10 @@ return (
     <main
     className={`${jetbrains.className} text-grey `}
   >
-    <div className="relative  h-screen max-w-2xl mx-auto flex flex-col items-center justify-center"> 
+    <div className="relative h-screen max-w-2xl mx-auto flex flex-col items-center justify-center"> 
 
   
-    <div className="absolute top-10 left-6 flex items-center gap-2">
+    <div className="absolute top-16 left-6 flex items-center gap-2">
       <div className="rounded-full w-2 h-2 bg-[#56F465] animate-pulse"></div>
       <p className="font-extralight text-xs tracking-widest text-grey">
         Available
@@ -66,7 +66,7 @@ return (
      </div>
     </header>
   
-    <nav className="absolute bottom-10 justify-self-end text-center flex flex-col md:flex-row md:justify-between md:items-center md:w-[500px] gap-4">
+    <nav className="absolute bottom-16 justify-self-end text-center flex flex-col md:flex-row md:justify-between md:items-center md:w-[500px] gap-4">
           <Link
             href="#projects"
             className="navbutton cursor-pointer text-xs border-[1px] py-3 px-8 border-black transition"
