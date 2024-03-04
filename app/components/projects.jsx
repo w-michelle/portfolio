@@ -43,11 +43,9 @@ const jetbrains = JetBrains_Mono({
   
 const Projects = () => {
     return (
-        <section id="projects" className={`${jetbrains.className} mt-[5rem] h-full p-4 w-[365px] md:w-[800px] mx-auto`}>
+        <section id="projects" className={`${jetbrains.className} relative mt-[5rem] h-full p-4 w-[365px] md:w-[800px] mx-auto`}>
             <h2 className="text-grey/30 font-light">/projects</h2>
-            <Link aria-label="link to snake game" className="text-xs w-[50px] fixed top-[50%] translate-y-[50%] right-[10%] text-gray-400/40 hover:text-[#001bff]" href="https://snake-game-mw.vercel.app/" target="_blank">
-                <span>BORED? BEAT A HIGHSCORE</span>
-            </Link>
+           
             {
                 projectInfo.map((project) => (
                 <div key={project.title} className="my-[8rem]">
