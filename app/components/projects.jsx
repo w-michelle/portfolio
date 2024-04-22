@@ -11,6 +11,7 @@ const jetbrains = JetBrains_Mono({
   const projectInfo = [
  {
         title:"CYBER BUBBLE",
+        desc: "First project, inspired by imissmybar with added organizational tools",
         stacks: "[React/Next.js/TailwindCSS/Firebase]",
         imgSrc: "/cb-home.png",
         siteUrl: "https://cyberbubble.vercel.app",
@@ -19,13 +20,24 @@ const jetbrains = JetBrains_Mono({
     },
     {
         title: "START FROM ZERO",
-        stacks: "[Typescript/React/Redux/Next.js/TailwindCSS/Prisma/PostgreSQL/Stripe]",
+        desc: "Recreating a custom wood-work e-commerce *Note: To test payment, use card number:[4242 4242 4242 4242]. ",
+        stacks: "[Typescript/Redux/Next.js/TailwindCSS/Prisma/PostgreSQL/Stripe/AWS S3/NextAuth]",
         imgSrc:"/sfz.png",
         siteUrl: "https://startfromzero.vercel.app/",
         github:"https://github.com/w-michelle/startfromzero"
     },
     {
+        title: "ROAM WITH",
+        desc: "Create bucket list items and generating itinerary",
+        stacks: "[Typescript/Zustand/Next.js/TailwindCSS/Prisma/PostgreSQL/AWS S3/NextAuth]",
+        imgSrc: "/roamwith.png",
+        siteUrl: "https://roamwith.vercel.app/",
+        github: "https://github.com/w-michelle/roam"
+    },
+
+    {
         title: "TRAVELGRAM",
+        desc: "Clone instagram with basic functions",
         stacks: "[React/Next.js/TailwindCSS/Firebase]",
         imgSrc:"/travel.png",
         siteUrl: "https://mytravelgram.vercel.app/",
@@ -33,6 +45,7 @@ const jetbrains = JetBrains_Mono({
     },
     {
         title: "I DON'T KNOW WHAT TO EAT",
+        desc: "Find random restaurants from different countries.",
         stacks: "[React/TailwindCSS/Express/YelpApi]",
         imgSrc:"/idkwte.png",
         siteUrl: "https://idontknowwhattoeat.vercel.app",
