@@ -20,7 +20,7 @@ const jetbrains = JetBrains_Mono({
     },
     {
         title: "START FROM ZERO",
-        desc: "Recreating a custom wood-work e-commerce *Note: To test payment, use card number:[4242 4242 4242 4242]. ",
+        desc: "Custom wood-work e-commerce *Note: To test payment, use card number:[4242 4242 4242 4242]. ",
         stacks: "[Typescript/Redux/Next.js/TailwindCSS/Prisma/PostgreSQL/Stripe/AWS S3/NextAuth]",
         imgSrc:"/sfz.png",
         siteUrl: "https://startfromzero.vercel.app/",
@@ -28,16 +28,16 @@ const jetbrains = JetBrains_Mono({
     },
     {
         title: "ROAM WITH",
-        desc: "Create bucket list items and generating itinerary",
+        desc: "Create bucket list items and itinerary",
         stacks: "[Typescript/Zustand/Next.js/TailwindCSS/Prisma/PostgreSQL/AWS S3/NextAuth]",
-        imgSrc: "/roamwith.png",
+        imgSrc: "/roam.png",
         siteUrl: "https://roamwith.vercel.app/",
         github: "https://github.com/w-michelle/roam"
     },
 
     {
         title: "TRAVELGRAM",
-        desc: "Clone instagram with basic functions",
+        desc: "Instagram clone with basic functions",
         stacks: "[React/Next.js/TailwindCSS/Firebase]",
         imgSrc:"/travel.png",
         siteUrl: "https://mytravelgram.vercel.app/",
@@ -66,6 +66,7 @@ const Projects = () => {
                      <div className="flex flex-col gap-3"> 
                         <p className="text-xs break-words w-[310px] tracking-widest">{project.stacks}</p>
                         <h3 className="tracking-wider">{project.title}</h3>
+                        <p className="text-xs w-[250px] text-neutral-400">{project.desc}</p>
                         <Link href={project.siteUrl} aria-label="view project" target="_blank">
                               <button className=" text-xs w-[100px] py-2 px-4 bg-[#C6F6D5] text-[#22543D] cursor-pointer hover:bg-[#22543D] hover:text-[#C6F6D5] transition">
                                  VIEW SITE
@@ -79,7 +80,7 @@ const Projects = () => {
                      </div>
                       
                         <Link href={project.siteUrl} aria-label="view project" target="_blank" className="relative w-[300px] h-[200px] md:w-[380px] md:h-[250px] mr-5">
-                            <Image src={project.imgSrc} fill alt="Project Image" className="object-cover shadow-custom rounded-md" />
+                            <Image src={project.imgSrc} fill alt="Project Image" className="object-cover object-top shadow-custom rounded-md" />
                         </Link>
                     </div>
                 </div>
