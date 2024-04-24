@@ -17,9 +17,7 @@ const Contact = () => {
             <Link href="https://github.com/w-michelle" aria-label="github profile" target="_blank">
       <ImGithub className="text-[30px]" />
       </Link>  
-      <Link aria-label="link to snake game" className="text-xs mt-4 text-gray-400/40 hover:text-[#001bff]" href="https://snake-game-mw.vercel.app/" target="_blank">
-                <span>BORED? BEAT A HIGHSCORE</span>
-            </Link>
+ 
         </div>
      
         </section>

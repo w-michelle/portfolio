@@ -12,10 +12,10 @@ const jetbrains = JetBrains_Mono({
  {
         title:"CYBER BUBBLE",
         desc: "First project, inspired by imissmybar with added organizational tools",
-        stacks: "[React/Next.js/TailwindCSS/Firebase]",
+        stacks: "[React/TailwindCSS/Firebase]",
         imgSrc: "/cb-home.png",
-        siteUrl: "https://cyberbubble.vercel.app",
-        github: "https://github.com/w-michelle/cyberbubble"
+        siteUrl: "https://cyberbubblev2.vercel.app",
+        github: "https://github.com/w-michelle/cyberbubblev2"
 
     },
     {
