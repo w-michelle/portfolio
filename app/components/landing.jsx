@@ -39,7 +39,7 @@ return (
     <main
     className={`${jetbrains.className} text-grey `}
   >
-    <div className="relative h-screen max-w-2xl mx-auto flex flex-col items-center justify-center"> 
+    <div className="relative h-screen max-w-2xl gap-8 mx-auto flex flex-col items-center justify-center"> 
 
   
     <div className="absolute top-16 left-12 flex items-center gap-2">
@@ -65,8 +65,11 @@ return (
       <p>{time}</p>
      </div>
     </header>
-  
+
+ 
+
     <nav className="absolute bottom-16 justify-self-end text-center flex flex-col md:flex-row md:justify-between md:items-center md:w-[500px] gap-4">
+      
           <Link
             href="#projects"
             className="navbutton cursor-pointer text-xs border-[1px] py-3 px-8 border-black transition"
