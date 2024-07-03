@@ -44,12 +44,12 @@ const jetbrains = JetBrains_Mono({
         github:"https://github.com/w-michelle/travelgram"
     },
     {
-        title: "I DON'T KNOW WHAT TO EAT",
-        desc: "Find random restaurants from different countries.",
-        stacks: "[React/TailwindCSS/Express/YelpApi]",
-        imgSrc:"/idkwte.png",
-        siteUrl: "https://idontknowwhattoeat.vercel.app",
-        github:"https://github.com/w-michelle/idkwte"
+        title: "CBXWORLD MEMBER'S ONLY CLUB",
+        desc: "Member's only clubhouse where only members can write anonymous posts",
+        stacks: "[React/Typescript/TailwindCSS/Express.js/Node.js/MongoDB/Redux/JWT]",
+        imgSrc:"/cbxworld.png",
+        siteUrl: "https://cbxworld.vercel.app/",
+        github:"https://github.com/w-michelle/cbxworld"
     },
  
 ]
