@@ -28,7 +28,7 @@ const jetbrains = JetBrains_Mono({
     },
     {
         title: "CBXWORLD MEMBER'S ONLY CLUB",
-        desc: "Member's only clubhouse where only members can write anonymous posts",
+        desc: "Member's only clubhouse where only members can write anonymous posts. *To join use [4949]",
         stacks: "[React/Typescript/TailwindCSS/Express.js/Node.js/MongoDB/Redux/JWT]",
         imgSrc:"/cbxworld.png",
         siteUrl: "https://cbxworld.vercel.app/",
