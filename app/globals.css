@@ -27,3 +27,13 @@ span {
   left: 120%;
   transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
 }
+
+@keyframes fast-pulse {
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.animate-fast-pulse {
+  animation: fast-pulse 0.75s infinite;
+}
