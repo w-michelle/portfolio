@@ -40,17 +40,20 @@ const Landing = () => {
             Available
           </p>
         </div>
-        <header className="relative">
-          <h1 className="z-[9999] relative tracking-[4px] font-extrabold ">
-            MICHELLE WU
-          </h1>
-          <p
-            className={`${inter.className} absolute top-[-40px] left-[9px] text-gray-200/25 text-[4rem] tracking-[15px]`}
-          >
-            MW
-          </p>
+        <header className="flex flex-col items-center">
+          <div className="relative border-1 border-black">
+            <h1 className="relative z-10 tracking-[4px] font-extrabold ">
+              MICHELLE WU
+            </h1>
+            <p
+              className={`${inter.className} z-0 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-gray-200/25 text-[4rem] tracking-[15px]`}
+            >
+              MW
+            </p>
+          </div>
+
           <p className="text-xs tracking-wider text-center mt-4 font-extralight">
-            FRONT-END DEV.
+            CURRENTLY PLAYING WITH THREE.JS ...
           </p>
           <div className="text-center mt-4 text-xs tracking-wider flex gap-2 font-extralight">
             <p className=" ">TORONTO</p>
