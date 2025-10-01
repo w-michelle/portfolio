@@ -53,7 +53,7 @@ const Landing = () => {
           </div>
 
           <p className="text-xs tracking-wider text-center mt-4 font-extralight">
-            Web Developer
+            WEB DEVELOPER
           </p>
           <div className="text-center mt-4 text-xs tracking-wider flex gap-2 font-extralight">
             <p className=" ">TORONTO</p>
