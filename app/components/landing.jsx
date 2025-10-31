@@ -63,10 +63,12 @@ const Landing = () => {
               <div className=" top-1/2 translate-y-[7px] right-0 border-t-2  border-neutral-200 sm:w-10 md:w-14 mr-2"></div>
               <div className="md:w-[200px] sm:w-[150px] w-[100px] mr-2">
                 <video
-                  src="/mariostar.mov"
+                  src="/mariostar.mp4"
                   autoPlay
                   muted
                   loop
+                  playsInline
+                  preload="auto"
                 ></video>
               </div>
             </div>
