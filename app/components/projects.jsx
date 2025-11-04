@@ -10,15 +10,6 @@ const inter = Inter({
 
 const projectInfo = [
   {
-    title: "START FROM ZERO",
-    desc: "Custom wood-work e-commerce *Note: To test payment, use:[4242 4242 4242 4242]. ",
-    stacks:
-      "[Typescript/Redux/Next.js/TailwindCSS/Prisma/PostgreSQL/Stripe/AWS S3/NextAuth]",
-    imgSrc: "/sfz.png",
-    siteUrl: "https://startfromzero.vercel.app/",
-    github: "https://github.com/w-michelle/startfromzero",
-  },
-  {
     title: "ROAM WITH",
     desc: "Create bucket list items and itinerary",
     stacks:
@@ -27,6 +18,16 @@ const projectInfo = [
     siteUrl: "https://roamwith.vercel.app/",
     github: "https://github.com/w-michelle/roamwith",
   },
+  {
+    title: "START FROM ZERO",
+    desc: "Custom wood-work e-commerce *Note: To test payment, use:[4242 4242 4242 4242]. ",
+    stacks:
+      "[Typescript/Redux/Next.js/TailwindCSS/Prisma/PostgreSQL/Stripe/AWS S3/NextAuth]",
+    imgSrc: "/sfz.png",
+    siteUrl: "https://startfromzero.vercel.app/",
+    github: "https://github.com/w-michelle/startfromzero",
+  },
+
   {
     title: "CBXWORLD MEMBER'S ONLY CLUB",
     desc: "Member's only clubhouse where only members can write anonymous posts. *To join use [4949]",
