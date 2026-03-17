@@ -10,6 +10,14 @@ const inter = Inter({
 
 const projectInfo = [
   {
+    title: "MIGEE ECOMMERCE",
+    desc: "Sanity + Shopify + Next.js",
+    stacks: "[Typescript/Next.js/Sanity/TailwindCSS/Zustand/SWR]",
+    imgSrc: "/migee.png",
+    siteUrl: "https://migee.co",
+    github: "https://github.com/w-michelle/MIGEE",
+  },
+  {
     title: "ROAM WITH",
     desc: "Create bucket list items and itinerary",
     stacks:
@@ -18,15 +26,15 @@ const projectInfo = [
     siteUrl: "https://roamwith.vercel.app/",
     github: "https://github.com/w-michelle/roamwith",
   },
-  {
-    title: "START FROM ZERO",
-    desc: "Custom wood-work e-commerce *Note: To test payment, use:[4242 4242 4242 4242]. ",
-    stacks:
-      "[Typescript/Redux/Next.js/TailwindCSS/Prisma/PostgreSQL/Stripe/AWS S3/NextAuth]",
-    imgSrc: "/sfz.png",
-    siteUrl: "https://startfromzero.vercel.app/",
-    github: "https://github.com/w-michelle/startfromzero",
-  },
+  // {
+  //   title: "START FROM ZERO",
+  //   desc: "Custom wood-work e-commerce *Note: To test payment, use:[4242 4242 4242 4242]. ",
+  //   stacks:
+  //     "[Typescript/Redux/Next.js/TailwindCSS/Prisma/PostgreSQL/Stripe/AWS S3/NextAuth]",
+  //   imgSrc: "/sfz.png",
+  //   siteUrl: "https://startfromzero.vercel.app/",
+  //   github: "https://github.com/w-michelle/startfromzero",
+  // },
 
   {
     title: "CBXWORLD MEMBER'S ONLY CLUB",
@@ -71,7 +79,7 @@ const Projects = () => {
         >
           <div className="flex gap-4 flex-wrap md:flex-nowrap md:justify-between">
             <div className="flex flex-col gap-3">
-              <p className="text-xs break-words w-[340px] tracking-widest">
+              <p className="text-xs break-words w-[330px] tracking-widest">
                 {project.stacks}
               </p>
               <h3 className="tracking-wider">{project.title}</h3>
