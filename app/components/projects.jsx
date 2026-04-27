@@ -26,6 +26,15 @@ const projectInfo = [
     siteUrl: "https://roamwith.vercel.app/",
     github: "https://github.com/w-michelle/roamwith",
   },
+
+  {
+    title: "ONE LINE A DAY",
+    desc: "Member's only clubhouse where only members can write posts and view the author of other posts. *To join use [4949]",
+    stacks: "[Express.js/Node.js/EJS/MongoDB/JWT]",
+    imgSrc: "/olad.png",
+    siteUrl: "https://one-line-a-day-plum.vercel.app/",
+    github: "https://github.com/w-michelle/one-line-a-day",
+  },
   // {
   //   title: "START FROM ZERO",
   //   desc: "Custom wood-work e-commerce *Note: To test payment, use:[4242 4242 4242 4242]. ",
@@ -35,16 +44,6 @@ const projectInfo = [
   //   siteUrl: "https://startfromzero.vercel.app/",
   //   github: "https://github.com/w-michelle/startfromzero",
   // },
-
-  {
-    title: "CBXWORLD MEMBER'S ONLY CLUB",
-    desc: "Member's only clubhouse where only members can write anonymous posts. *To join use [4949]",
-    stacks:
-      "[React/Typescript/TailwindCSS/Express.js/Node.js/MongoDB/Redux/JWT]",
-    imgSrc: "/cbxworld.png",
-    siteUrl: "https://cbxworld.vercel.app/",
-    github: "https://github.com/w-michelle/cbxworld",
-  },
 
   {
     title: "TRAVELGRAM",

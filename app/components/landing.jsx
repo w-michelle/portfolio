@@ -55,24 +55,7 @@ const Landing = () => {
           <p className="text-xs tracking-wider text-center mt-4 font-extralight">
             DEVELOPER
           </p>
-          <div className="flex items-center">
-            <p className="relative text-xs tracking-wider text-center mt-4 font-extralight mr-2">
-              LEARNING THREE.JS
-            </p>
-            <div className=" absolute right-0 flex items-center">
-              <div className=" top-1/2 translate-y-[7px] right-0 border-t-2  border-neutral-200 sm:w-10 md:w-14 mr-2"></div>
-              <div className="md:w-[200px] sm:w-[150px] w-[100px] mr-2">
-                <video
-                  src="/mariostar.mp4"
-                  autoPlay
-                  muted
-                  loop
-                  playsInline
-                  preload="auto"
-                ></video>
-              </div>
-            </div>
-          </div>
+
           <div className="text-center mt-4 text-xs tracking-wider flex gap-2 font-extralight">
             <p className=" ">TORONTO</p>
             <p>{time}</p>
